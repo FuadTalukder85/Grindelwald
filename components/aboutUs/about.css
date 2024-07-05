@@ -1,0 +1,49 @@
+.about {
+  position: relative;
+  z-index: -1;
+  background: url(../../images/bgImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -7px;
+  padding-bottom: 180px;
+}
+.about-content {
+  display: flex;
+  gap: 220px;
+  padding: 0px 30px;
+}
+.first-img {
+  margin-top: 320px;
+}
+.about-title {
+  font-family: "Switzer", sans-serif;
+  font-size: 24px;
+  color: #75ff69;
+  margin-top: 230px;
+  text-transform: uppercase;
+}
+.second-img {
+  margin-top: 70px;
+}
+.about-bottom {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+  margin-top: 280px;
+}
+.fourth-img {
+  margin-top: 30px;
+}
+.about-paragraph {
+  position: absolute;
+  top: 230px;
+  padding: 0 170px;
+  text-align: center;
+  font-family: "Boska", serif;
+  font-size: 68px;
+  color: white;
+  text-transform: capitalize;
+}
+.paragraph-style {
+  opacity: 0.3;
+}

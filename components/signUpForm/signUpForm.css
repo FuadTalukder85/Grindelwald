@@ -1,0 +1,59 @@
+.hello {
+  color: red;
+}
+.sign-up {
+  background: url(../../images/bgImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 125px;
+}
+.sign-up-bg {
+  background: url(../../images/signupImg/signupBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 170px 300px;
+}
+.sign-up-title {
+  font-family: "Boska", serif;
+  font-weight: 400;
+  font-size: 68px;
+  text-transform: capitalize;
+  color: white;
+  text-align: center;
+}
+.get-10 {
+  color: #75ff69;
+}
+.signup-paragraph {
+  width: 400px;
+  color: white;
+  font-family: "Switzer", sans-serif;
+  font-size: 18px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.signUp {
+  width: 570px;
+  position: relative;
+  margin-top: 60px;
+}
+.signUp-input {
+  padding: 20px 0 20px 20px;
+  width: 100%;
+  border: none;
+}
+.signUp-input:focus {
+  outline: none;
+}
+.discount {
+  position: absolute;
+  top: 0%;
+  right: -4%;
+  padding: 15px 35px;
+  font-family: "Switzer", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  border: none;
+  background-color: #75ff69;
+}

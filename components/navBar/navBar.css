@@ -1,0 +1,21 @@
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 1214px;
+  padding-top: 40px;
+  margin: 0 auto;
+}
+.nav-menu ul li {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Switzer", sans-serif;
+}
+.nav-menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+.nav-item {
+  display: flex;
+  gap: 55px;
+}

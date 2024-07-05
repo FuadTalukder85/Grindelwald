@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grindelwald</title>
+    <!-- Fonts -->
+    <!-- Boska font -->
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=boska@200,201,300,301,400,401,500,501,700,701,900,901,1,2&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Poopins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="components/navBar/navBar.css" />
+    <link rel="stylesheet" href="components/banner/banner.css" />
+    <link rel="stylesheet" href="components/aboutUs/about.css" />
+    <link rel="stylesheet" href="components/uniqueRoom/uniqueRoom.css" />
+    <link rel="stylesheet" href="components/signUpForm/signUpForm.css" />
+    <link rel="stylesheet" href="components/testimonials/testimonials.css" />
+    <!-- Main css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="banner-img">
+      <nav id="navBar"></nav>
+      <div class="circle">
+        <!-- navBar section -->
+        <!-- banner section -->
+        <banner id="banner"></banner>
+      </div>
+    </div>
+    <div id="about"></div>
+    <div id="uniqueRoom"></div>
+    <div id="signUpForm"></div>
+    <div id="testimonials"></div>
+
+    <script>
+      function loadComponent(id, url) {
+        fetch(url)
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById(id).innerHTML = data;
+          })
+          .catch((error) => console.error(`Error loading ${id}:`, error));
+      }
+
+      window.onload = function () {
+        loadComponent("navBar", "/components/navBar/navBar.html");
+        loadComponent("banner", "/components/banner/banner.html");
+        loadComponent("about", "/components/aboutUs/about.html");
+        loadComponent("uniqueRoom", "/components/uniqueRoom/uniqueRoom.html");
+        loadComponent("signUpForm", "/components/signUpForm/signUpForm.html");
+        loadComponent(
+          "testimonials",
+          "/components/testimonials/testimonials.html"
+        );
+      };
+    </script>
+  </body>
+</html>

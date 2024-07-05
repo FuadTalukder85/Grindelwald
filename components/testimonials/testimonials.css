@@ -1,0 +1,41 @@
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.testimonials-title {
+  font-family: "Boska", serif;
+  font-size: 68px;
+  font-weight: 400;
+  color: #1b3936;
+  text-transform: capitalize;
+  width: 760px;
+  padding-left: 140px;
+}
+.testimonials-paragraph {
+  font-family: "Switzer", sans-serif;
+  font-size: 18px;
+  width: 380px;
+  padding-right: 125px;
+  margin-top: 110px;
+}
+.testimonials-slider {
+  display: flex;
+  gap: 100px;
+  padding-left: 140px;
+  overflow: hidden;
+  margin-top: 180px;
+}
+.testimonial-box {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 300px;
+  text-align: center;
+}
+.text {
+  font-size: 1rem;
+  color: #777;
+}

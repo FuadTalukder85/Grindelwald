@@ -1,0 +1,56 @@
+/* fonts  */
+@font-face {
+  font-family: "Switzer";
+  src: url("fonts/Switzer-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Switzer";
+  src: url("fonts/Switzer-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: "AvenirNext";
+  src: url("fonts/AvenirNext-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "AvenirNext";
+  src: url("fonts/AvenirNext-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+body {
+  font-family: "Boska", serif;
+  font-family: "Switzer", sans-serif;
+  font-family: "AvenirNext", sans-serif;
+  font-family: "Poppins", sans-serif;
+  width: 1440px;
+  padding: 0;
+  margin: 0;
+  margin: 0 auto;
+}
+h1 {
+  margin: 0;
+}
+.banner-img {
+  background: url(/images/bgImg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.circle {
+  width: 1214px;
+  height: 1214px;
+  border: dashed #3caf50;
+  border-spacing: 15px;
+  border-width: 5px;
+  border-radius: 100%;
+  margin: 0 auto;
+  margin-top: -130px;
+}
