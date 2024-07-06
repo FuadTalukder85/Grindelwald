@@ -1,11 +1,9 @@
-.hello {
-  color: red;
-}
 .sign-up {
   background: url(../../images/bgImg.png);
   background-repeat: no-repeat;
   background-size: cover;
   padding: 125px;
+  margin-top: 180px;
 }
 .sign-up-bg {
   background: url(../../images/signupImg/signupBG.png);
