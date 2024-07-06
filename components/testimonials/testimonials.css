@@ -23,12 +23,21 @@
   display: flex;
   gap: 100px;
   padding-left: 140px;
-  overflow: hidden;
+  overflow-x: scroll;
   margin-top: 180px;
   margin-bottom: 120px;
 }
+.testimonials-slider::-webkit-scrollbar {
+  display: none;
+}
+
 .testimonials-img {
   z-index: -1;
+  transition: transform 0.5s;
+}
+.testimonials-img:hover {
+  transform: scale(1.1);
+  transition-delay: 8ms;
 }
 .testimonial-box {
   background: #fff;
@@ -39,7 +48,6 @@
   margin-top: -170px;
   position: relative;
   margin-bottom: 15px;
-  /* box-shadow: inset 0px -10px 25px lightblue; */
 }
 .testimonial-shadow {
   width: 380px;

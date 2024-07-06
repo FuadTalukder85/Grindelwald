@@ -52,6 +52,11 @@
           .then((response) => response.text())
           .then((data) => {
             document.getElementById(id).innerHTML = data;
+            if (id === "testimonials") {
+              const script = document.createElement("script");
+              script.src = "/scripts/testimonials.js";
+              document.body.appendChild(script);
+            }
           })
           .catch((error) => console.error(`Error loading ${id}:`, error));
       }
