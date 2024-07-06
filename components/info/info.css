@@ -1,0 +1,31 @@
+.info {
+  display: flex;
+  gap: 225px;
+  margin-top: -50px;
+  padding: 125px;
+  background-color: white;
+}
+.info-paragraph {
+  font-family: "Switzer", sans-serif;
+  font-size: 24px;
+  width: 610px;
+}
+info-title {
+  font-family: "Switzer", sans-serif;
+  font-size: 24px;
+  color: #1b3936;
+}
+.info-details {
+  font-family: "Boska", serif;
+  font-size: 100px;
+  font-weight: 900;
+  color: #1b3936;
+  margin-top: -40px;
+}
+.info-sup {
+  font-family: "Switzer", sans-serif;
+  font-size: 24px;
+}
+.info-middle {
+  margin-top: 100px;
+}

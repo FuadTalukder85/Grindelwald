@@ -20,11 +20,13 @@
     />
     <link rel="stylesheet" href="components/navBar/navBar.css" />
     <link rel="stylesheet" href="components/banner/banner.css" />
+    <link rel="stylesheet" href="components/info//info.css" />
     <link rel="stylesheet" href="components/aboutUs/about.css" />
     <link rel="stylesheet" href="components/uniqueRoom/uniqueRoom.css" />
     <link rel="stylesheet" href="components/signUpForm/signUpForm.css" />
     <link rel="stylesheet" href="components/testimonials/testimonials.css" />
     <link rel="stylesheet" href="components/footer/footer.css" />
+
     <!-- Main css file -->
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -37,6 +39,7 @@
         <banner id="banner"></banner>
       </div>
     </div>
+    <div id="info"></div>
     <div id="about"></div>
     <div id="uniqueRoom"></div>
     <div id="signUpForm"></div>
@@ -56,6 +59,7 @@
       window.onload = function () {
         loadComponent("navBar", "/components/navBar/navBar.html");
         loadComponent("banner", "/components/banner/banner.html");
+        loadComponent("info", "/components/info/info.html");
         loadComponent("about", "/components/aboutUs/about.html");
         loadComponent("uniqueRoom", "/components/uniqueRoom/uniqueRoom.html");
         loadComponent("signUpForm", "/components/signUpForm/signUpForm.html");
