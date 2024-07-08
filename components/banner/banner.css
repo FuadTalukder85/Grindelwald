@@ -2,13 +2,22 @@
   margin: 0 auto;
 }
 .inner-banner-img {
-  background: url(../../images//bannerImg_02.png);
+  background: url(../../images/bannerImg_02.png);
   background-repeat: no-repeat;
   margin-top: 280px !important;
   width: 575px;
   height: 575px;
   display: block;
   margin: 0 auto;
+}
+.banner-content {
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.btn-play {
+  margin-top: -330px;
+  padding-left: 80px;
 }
 .banner-text {
   text-align: center;

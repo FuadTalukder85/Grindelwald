@@ -1,4 +1,4 @@
-.uniquq {
+.unique {
   margin-top: -150px;
 }
 .unique-paragraph {
@@ -18,6 +18,14 @@
 .cabin-card {
   position: relative;
 }
+.cabin-card img {
+  z-index: -1;
+  transition: transform 0.5s;
+}
+.cabin-card img:hover {
+  transform: scale(1.1);
+  transition-delay: 8ms;
+}
 .cabin-text {
   position: absolute;
   bottom: 6%;
@@ -25,4 +33,28 @@
   font-family: "Boska", serif;
   font-size: 32px;
   color: white;
+}
+.middle-cabin {
+  position: absolute;
+  bottom: 6%;
+  left: 10%;
+  right: 10%;
+  color: white;
+}
+.cabin-icon {
+  margin-top: 30px;
+}
+.cabin-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.cabin-paragraph {
+  padding-right: 25px;
+}
+.cabin-middle-text {
+  font-family: "Boska", serif;
+  font-size: 68px;
+  color: white;
+  font-weight: 500;
+  margin: 0;
 }

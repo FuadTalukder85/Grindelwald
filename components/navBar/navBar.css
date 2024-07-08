@@ -14,6 +14,12 @@
   text-decoration: none;
   color: white;
   font-size: 18px;
+  transform: 0.5s ease-in-out;
+}
+.nav-menu ul li a:hover {
+  color: #3caf50;
+  font-weight: 500;
+  transform: 0.5s ease-in-out;
 }
 .nav-item {
   display: flex;
